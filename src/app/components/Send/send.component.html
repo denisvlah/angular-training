@@ -1,0 +1,18 @@
+<div class="root1" *ngIf="showSend" [attr.data-color]="color" [attr.data-state]="state" [attr.data-type]="type" (click)="onAccordionHeaderClick($event)()" [ngStyle]="sendStyle">
+      <div class="content66">
+        <img class="img-icon16" loading="lazy" alt="" src="assets/img-1@2x.png" />
+        <div class="content65">
+          <div class="settings-text-w-icon-ondar1">
+            <div class="subtitle2">{{subtitle}}</div>
+            <div class="content62">
+              <div class="title4" [ngStyle]="titleStyle">{{title}}</div>
+              <img class="line-icon1" alt="" [src]="line" />
+            </div>
+          </div>
+          <div class="content64">
+            <div class="content63"><buttons [color]="'onDark'" [onlyIcon]="'On'" [size]="'14px'" [state]="'Default'" [type]="'Link'" [buttonsHeight]="'unset'" [icon]="'sentiment_satisfied_alt'"> </buttons>
+            </div><buttons [color]="'onDark'" [onlyIcon]="'On'" [size]="'14px'" [state]="'Default'" [type]="'Primary'" [buttonsHeight]="'unset'" [icon]="''"> </buttons>
+          </div>
+        </div>
+      </div>
+    </div>

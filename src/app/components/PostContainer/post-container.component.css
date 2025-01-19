@@ -1,0 +1,133 @@
+.bitmap-copy-21 {
+  height: 359px;
+  width: 467px;
+  position: relative;
+  object-fit: contain;
+  mix-blend-mode: overlay;
+  z-index: 1;
+}
+.bitmap-icon1 {
+  position: absolute;
+  top: -288px;
+  left: 141px;
+  width: 1035px;
+  height: 1035px;
+  object-fit: cover;
+}
+.bitmap-copy-51 {
+  position: absolute;
+  top: -33px;
+  left: 934px;
+  width: 467px;
+  height: 359px;
+  object-fit: contain;
+  mix-blend-mode: overlay;
+  z-index: 1;
+}
+.bitmap-copy-71 {
+  position: absolute;
+  top: 685px;
+  left: 467px;
+  width: 467px;
+  height: 359px;
+  object-fit: contain;
+  mix-blend-mode: overlay;
+  z-index: 1;
+}
+.bitmap-copy-81 {
+  position: absolute;
+  top: 685px;
+  left: 934px;
+  width: 467px;
+  height: 359px;
+  object-fit: contain;
+  mix-blend-mode: overlay;
+  z-index: 1;
+}
+.bitmap-copy-41 {
+  position: absolute;
+  top: 326px;
+  left: 0px;
+  width: 467px;
+  height: 359px;
+  object-fit: contain;
+  mix-blend-mode: overlay;
+  z-index: 1;
+}
+.bitmap-copy-91 {
+  position: absolute;
+  top: 685px;
+  left: 0px;
+  width: 467px;
+  height: 359px;
+  object-fit: contain;
+  mix-blend-mode: overlay;
+  z-index: 1;
+}
+.bitmap-copy-31 {
+  position: absolute;
+  top: -33px;
+  left: 0px;
+  width: 467px;
+  height: 359px;
+  object-fit: contain;
+  mix-blend-mode: overlay;
+  z-index: 1;
+}
+.img-icon11 {
+  position: absolute;
+  top: 24px;
+  left: 215px;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  z-index: 2;
+}
+.bottom-navigation {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 467px;
+  height: 326px;
+}
+.bottom-icons {
+  height: 900px;
+  width: 1331px;
+  position: absolute;
+  margin: 0 !important;
+  top: -326px;
+  left: -467px;
+}
+.bitmap-copy-2-parent {
+  width: 467px;
+  height: 359px;
+  margin: 0 !important;
+  position: absolute;
+  top: 114px;
+  left: 252px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.post-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-base);
+  min-width: 467px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--px-medium-size);
+  color: var(--light-solid);
+  font-family: var(--px-medium);
+}
+
+@media screen and (max-width: 1050px) {
+  .post-container {
+    min-width: 100%;
+  }
+}

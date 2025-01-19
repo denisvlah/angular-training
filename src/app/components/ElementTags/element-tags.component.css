@@ -1,0 +1,27 @@
+.icon11 {
+  position: relative;
+}
+.tag6 {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--px-regular-size);
+  line-height: 16px;
+  font-weight: 700;
+  font-family: var(--px-medium);
+  color: inherit;
+  text-align: left;
+}
+.element-tags5 {
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--light-solid);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  gap: var(--gap-9xs);
+  text-align: center;
+  font-size: var(--icons-16-size);
+  color: var(--light-solid);
+  font-family: var(--icons-16);
+}

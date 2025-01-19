@@ -1,0 +1,41 @@
+.bg-hover-icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: var(--br-12xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 0;
+}
+.tag5 {
+  height: 16px;
+  width: 52px;
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.element-tags-000000-onda {
+  height: 28.2px;
+  width: 111.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-10xl-3) var(--padding-6xs-2)
+    var(--padding-12xl);
+  box-sizing: border-box;
+  position: relative;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--px-regular-size);
+  color: var(--light-solid);
+  font-family: var(--px-medium);
+}

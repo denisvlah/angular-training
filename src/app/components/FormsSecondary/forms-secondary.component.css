@@ -1,0 +1,91 @@
+.field-title3 {
+  width: 268px;
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+  display: none;
+}
+.placeholder1 {
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+}
+.icon9 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+.content42 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content43 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  text-align: center;
+  font-size: var(--heading-h6-size);
+  color: var(--light-solid);
+  font-family: var(--icons-16);
+}
+.content44 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.form2 {
+  align-self: stretch;
+  border-bottom: 1px solid var(--light-solid);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0px;
+  font-size: var(--px-medium-size);
+}
+.root {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--px-regular-size);
+  color: var(--light-transparent);
+  font-family: var(--px-medium);
+}
+.root[data-color="onDark"][data-component="Select"][data-size="14 px"][data-state="Active"][data-type="Primary"] {
+  gap: var(--gap-9xs);
+}
+.root[data-color="onDark"][data-component="Select"][data-size="14 px"][data-state="Active"][data-type="Primary"]
+  .field-title3 {
+  width: unset;
+  display: unset;
+  align-self: stretch;
+}
+.root[data-color="onDark"][data-component="Select"][data-size="14 px"][data-state="Active"][data-type="Primary"]
+  .placeholder1 {
+  color: var(--light-solid);
+}
+.root[data-color="onDark"][data-component="Select"][data-size="14 px"][data-state="Active"][data-type="Primary"]
+  .content43 {
+  display: none;
+}
+.root[data-color="onDark"][data-component="Select"][data-size="14 px"][data-state="Active"][data-type="Primary"]
+  .icon9 {
+  text-decoration: unset;
+  color: var(--light-transparent);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}

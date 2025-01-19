@@ -1,0 +1,398 @@
+.logo-tik-talk-icon {
+  width: 61px;
+  height: 74px;
+  position: relative;
+}
+.logo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-9xl);
+}
+.home-icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.link2 {
+  position: relative;
+  line-height: 24px;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.content91 {
+  align-self: stretch;
+  border-radius: var(--br-11xs);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.chat-icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.link3 {
+  position: relative;
+  line-height: 24px;
+}
+.item1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.content92 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.content93 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.search-icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.link4 {
+  position: relative;
+  line-height: 24px;
+}
+.item2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.content94 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.content95 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.links {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.team-members {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+}
+.team-members1 {
+  height: 16px;
+  width: 22px;
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+  display: inline-block;
+}
+.arrow {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  font-size: var(--heading-h6-size);
+  font-family: var(--icons-16);
+  text-align: center;
+  display: inline-block;
+  transform: rotate(-90deg);
+}
+.team-members-parent {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--primary-primary);
+}
+.content96 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.img-icon20 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.link5 {
+  position: relative;
+  line-height: 24px;
+}
+.content97 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0px;
+  gap: var(--gap-xs);
+}
+.img-icon21 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.link6 {
+  position: relative;
+  line-height: 24px;
+}
+.content98 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0px;
+  gap: var(--gap-xs);
+}
+.img-icon22 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.link7 {
+  position: relative;
+  line-height: 24px;
+}
+.content99 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0px;
+  gap: var(--gap-xs);
+}
+.content100 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  font-size: var(--px-medium-size);
+  color: var(--light-solid);
+}
+.see-more {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+}
+.vector-icon {
+  height: 9px;
+  width: 5.6px;
+  position: relative;
+}
+.arrow1 {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.more {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  color: var(--primary-primary);
+}
+.content101 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.links1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-9xl);
+  font-size: var(--px-regular-size);
+  color: var(--light-transparent);
+}
+.content102 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.img-icon23 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  object-fit: cover;
+}
+.link8 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.settings-icon {
+  height: 14px;
+  width: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.content103 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.content104 {
+  align-self: stretch;
+  border-radius: var(--br-11xs);
+  background-color: var(--dark-active);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-base);
+}
+.links2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-xs);
+  color: var(--primary-primary);
+}
+.content105 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-85xl);
+}
+.root3 {
+  position: absolute;
+  height: 100%;
+  width: 20.83%;
+  top: 0%;
+  right: 79.17%;
+  bottom: 0%;
+  left: 0%;
+  background-color: var(--dark-solid);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--px-medium-size);
+  color: var(--light-solid);
+  font-family: var(--px-medium);
+}
+.root3[data-type="Chat"] {
+  flex-shrink: 0;
+}
+.root3[data-type="My page"] .content91 {
+  background-color: var(--dark-active);
+}
+.root3[data-type="My page"] .link2 {
+  color: var(--primary-primary);
+}
+.root3[data-type="Chat"] .content93 {
+  border-radius: var(--br-11xs);
+  background-color: var(--dark-active);
+}
+.root3[data-type="Chat"] .link3 {
+  color: var(--primary-primary);
+}
+.root3[data-type="Search"] .content95 {
+  border-radius: var(--br-11xs);
+  background-color: var(--dark-active);
+}
+.root3[data-type="Search"] .link4 {
+  color: var(--primary-primary);
+}
+.root3[data-type="Chat"] .content104 {
+  background-color: unset;
+}
+.root3[data-type="Search"] .content104 {
+  background-color: unset;
+}
+.root3[data-type="My page"] .content104 {
+  background-color: unset;
+}
+.root3[data-type="Chat"] .link8 {
+  color: var(--light-solid);
+}
+.root3[data-type="Search"] .link8 {
+  color: var(--light-solid);
+}
+.root3[data-type="My page"] .link8 {
+  color: var(--light-solid);
+}

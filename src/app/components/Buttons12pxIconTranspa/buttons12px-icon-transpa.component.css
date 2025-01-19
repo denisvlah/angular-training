@@ -1,0 +1,21 @@
+.icon8 {
+  height: 16px;
+  width: 17px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.buttons-12px-icon-transpa {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--icons-16-size);
+  color: var(--light-solid);
+  font-family: var(--icons-16);
+}

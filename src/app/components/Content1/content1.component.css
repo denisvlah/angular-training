@@ -1,0 +1,152 @@
+.img-icon19 {
+  height: 112px;
+  width: 112px;
+  position: relative;
+  object-fit: cover;
+}
+.laquita-elliott3 {
+  text-decoration: none;
+  position: relative;
+  line-height: 32px;
+  font-weight: 800;
+  color: inherit;
+}
+.elliottlaquitagmai3 {
+  position: relative;
+  font-size: var(--px-medium-size);
+  line-height: 21px;
+}
+.content87 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.content86 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-9xl) 0px;
+  box-sizing: border-box;
+  min-width: 122px;
+}
+.content85 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-5xs) 0px 0px;
+  gap: var(--gap-5xl);
+}
+.content84 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content83 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--heading-h4-size);
+}
+.line-icon2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.skills3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 800;
+  font-family: inherit;
+}
+.tag17 {
+  position: relative;
+  line-height: 16px;
+}
+.element-tags16 {
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--light-solid);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-5xs);
+}
+.content89 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 0px var(--padding-169xl) 0px 0px;
+  gap: 4px 1px;
+  font-size: var(--px-regular-size);
+}
+.content88 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.happiness-is-not3 {
+  position: relative;
+  font-size: var(--px-regular-size);
+  line-height: 16px;
+  font-weight: 500;
+}
+.content90 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.content82 {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--heading-h6-size);
+  color: var(--light-solid);
+  font-family: var(--px-medium);
+}
+
+@media screen and (max-width: 650px) {
+  .img-icon19 {
+    flex: 1;
+  }
+
+  .content85 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .laquita-elliott3 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

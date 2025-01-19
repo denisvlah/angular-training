@@ -1,0 +1,36 @@
+.icon7 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.content29 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.lable3 {
+  position: relative;
+  font-size: var(--px-regular-size);
+  line-height: 16px;
+  font-family: var(--px-medium);
+  text-align: left;
+}
+.link1 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 19.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+}
+.buttons-12px-icon-label {
+  width: 38px;
+  position: relative;
+  height: 32px;
+  text-align: center;
+  font-size: var(--icons-16-size);
+  color: var(--primary-primary);
+  font-family: var(--icons-16);
+}

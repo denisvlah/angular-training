@@ -1,0 +1,25 @@
+.icon17 {
+  margin: 0;
+  height: 18px;
+  width: 19px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.buttons-16px-icon-transpa {
+  height: 52px;
+  width: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--heading-h6-size);
+  color: var(--light-solid);
+  font-family: var(--icons-16);
+}
