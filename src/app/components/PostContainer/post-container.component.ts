@@ -1,14 +1,14 @@
 import { Component, ViewEncapsulation, HostBinding } from "@angular/core";
 
-import { Send } from "../Send/Send.component";
-import { Post } from "../Post/Post.component";
+import { Send } from "../Send/send.component";
+import { Post } from "../Post/post.component";
 @Component({
   selector: "post-container",
   standalone: true,
   encapsulation: ViewEncapsulation.None,
   imports: [Send, Post],
-  templateUrl: "./PostContainer.component.html",
-  styleUrls: ["./PostContainer.component.css"],
+  templateUrl: "./post-container.component.html",
+  styleUrls: ["./post-container.component.css"],
 })
 export class PostContainer {
   @HostBinding("style.display") display = "contents";

@@ -5,8 +5,8 @@ import { Component, ViewEncapsulation, HostBinding } from "@angular/core";
   standalone: true,
   encapsulation: ViewEncapsulation.None,
   imports: [],
-  templateUrl: "./Buttons12pxIconTranspa.component.html",
-  styleUrls: ["./Buttons12pxIconTranspa.component.css"],
+  templateUrl: "./buttons12px-icon-transpa.component.html",
+  styleUrls: ["./buttons12px-icon-transpa.component.css"],
 })
 export class Buttons12pxIconTranspa {
   @HostBinding("style.display") display = "contents";

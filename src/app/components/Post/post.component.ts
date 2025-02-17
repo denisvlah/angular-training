@@ -6,16 +6,16 @@ import {
 } from "@angular/core";
 
 import { CommonModule } from "@angular/common";
-import { Buttons } from "../Buttons/Buttons.component";
-import { Buttons12pxIconLabel } from "../Buttons12pxIconLabel/Buttons12pxIconLabel.component";
-import { Send } from "../Send/Send.component";
+import { Buttons } from "../Buttons/buttons.component";
+import { Buttons12pxIconLabel } from "../Buttons12pxIconLabel/buttons12px-icon-label.component";
+import { Send } from "../Send/send.component";
 @Component({
   selector: "post",
   standalone: true,
   encapsulation: ViewEncapsulation.None,
   imports: [CommonModule, Buttons, Buttons12pxIconLabel, Send],
-  templateUrl: "./Post.component.html",
-  styleUrls: ["./Post.component.css"],
+  templateUrl: "./post.component.html",
+  styleUrls: ["./post.component.css"],
 })
 export class Post {
   @HostBinding("style.display") display = "contents";

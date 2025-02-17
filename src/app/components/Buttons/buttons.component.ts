@@ -11,8 +11,8 @@ import { CommonModule } from "@angular/common";
   standalone: true,
   encapsulation: ViewEncapsulation.None,
   imports: [CommonModule],
-  templateUrl: "./Buttons.component.html",
-  styleUrls: ["./Buttons.component.css"],
+  templateUrl: "./buttons.component.html",
+  styleUrls: ["./buttons.component.css"],
 })
 export class Buttons {
   @HostBinding("style.display") display = "contents";

@@ -11,8 +11,8 @@ import { CommonModule } from "@angular/common";
   standalone: true,
   encapsulation: ViewEncapsulation.None,
   imports: [CommonModule],
-  templateUrl: "./ElementTags00D066Badge.component.html",
-  styleUrls: ["./ElementTags00D066Badge.component.css"],
+  templateUrl: "./element-tags00-d066-badge.component.html",
+  styleUrls: ["./element-tags00-d066-badge.component.css"],
 })
 export class ElementTags00D066Badge {
   @HostBinding("style.display") display = "contents";

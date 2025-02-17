@@ -10,8 +10,8 @@ import {
   standalone: true,
   encapsulation: ViewEncapsulation.None,
   imports: [],
-  templateUrl: "./Inbox.component.html",
-  styleUrls: ["./Inbox.component.css"],
+  templateUrl: "./inbox.component.html",
+  styleUrls: ["./inbox.component.css"],
 })
 export class Inbox {
   @HostBinding("style.display") display = "contents";

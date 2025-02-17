@@ -1,15 +1,15 @@
 import { Component, ViewEncapsulation, HostBinding } from "@angular/core";
 
-import { FormsSecondary } from "../FormsSecondary/FormsSecondary.component";
-import { ElementTags } from "../ElementTags/ElementTags.component";
-import { Buttons } from "../Buttons/Buttons.component";
+import { FormsSecondary } from "../FormsSecondary/forms-secondary.component";
+import { ElementTags } from "../ElementTags/element-tags.component";
+import { Buttons } from "../Buttons/buttons.component";
 @Component({
   selector: "frame-component",
   standalone: true,
   encapsulation: ViewEncapsulation.None,
   imports: [FormsSecondary, ElementTags, Buttons],
-  templateUrl: "./FrameComponent.component.html",
-  styleUrls: ["./FrameComponent.component.css"],
+  templateUrl: "./frame-component.component.html",
+  styleUrls: ["./frame-component.component.css"],
 })
 export class FrameComponent {
   @HostBinding("style.display") display = "contents";

@@ -1,14 +1,14 @@
 import { Component, ViewEncapsulation, HostBinding } from "@angular/core";
 
-import { FormsSecondary } from "../FormsSecondary/FormsSecondary.component";
-import { ElementTags00D066Badge } from "../ElementTags00D066Badge/ElementTags00D066Badge.component";
+import { FormsSecondary } from "../FormsSecondary/forms-secondary.component";
+import { ElementTags00D066Badge } from "../ElementTags00D066Badge/element-tags00-d066-badge.component";
 @Component({
   selector: "content",
   standalone: true,
   encapsulation: ViewEncapsulation.None,
   imports: [FormsSecondary, ElementTags00D066Badge],
-  templateUrl: "./Content.component.html",
-  styleUrls: ["./Content.component.css"],
+  templateUrl: "./content.component.html",
+  styleUrls: ["./content.component.css"],
 })
 export class Content {
   @HostBinding("style.display") display = "contents";

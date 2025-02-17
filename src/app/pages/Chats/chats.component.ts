@@ -1,12 +1,12 @@
 import { Component, ViewEncapsulation, HostBinding } from "@angular/core";
 
-import { NavigationSidebar } from "../../components/NavigationSidebar/NavigationSidebar.component";
-import { Content } from "../../components/Content/Content.component";
-import { Buttons } from "../../components/Buttons/Buttons.component";
-import { ElementTags000000OnDa } from "../../components/ElementTags000000OnDa/ElementTags000000OnDa.component";
-import { Inbox } from "../../components/Inbox/Inbox.component";
-import { Inbox1 } from "../../components/Inbox1/Inbox1.component";
-import { Send } from "../../components/Send/Send.component";
+import { NavigationSidebar } from "../../components/NavigationSidebar/navigation-sidebar.component";
+import { Content } from "../../components/Content/content.component";
+import { Buttons } from "../../components/Buttons/buttons.component";
+import { ElementTags000000OnDa } from "../../components/ElementTags000000OnDa/element-tags000000-on-da.component";
+import { Inbox } from "../../components/Inbox/inbox.component";
+import { Inbox1 } from "../../components/Inbox1/inbox1.component";
+import { Send } from "../../components/Send/send.component";
 @Component({
   selector: "chats",
   standalone: true,
@@ -20,8 +20,8 @@ import { Send } from "../../components/Send/Send.component";
     Inbox1,
     Send,
   ],
-  templateUrl: "./Chats.component.html",
-  styleUrls: ["./Chats.component.css"],
+  templateUrl: "./chats.component.html",
+  styleUrls: ["./chats.component.css"],
 })
 export class Chats {
   @HostBinding("style.display") display = "contents";

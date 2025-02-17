@@ -1,17 +1,43 @@
 <div class="post-container" data-acc-group>
-      <div class="bitmap-copy-2-parent">
-        <img class="bitmap-copy-21" loading="lazy" alt="" src="assets/bitmap-copy@2x.png" />
-        <div class="bottom-icons">
-          <img class="bitmap-icon1" alt="" src="assets/bitmap@2x.png" />
-          <img class="bitmap-copy-51" alt="" src="assets/bitmap-copy@2x.png" />
-          <img class="bitmap-copy-71" loading="lazy" alt="" src="assets/bitmap-copy@2x.png" />
-          <img class="bitmap-copy-81" loading="lazy" alt="" src="assets/bitmap-copy@2x.png" />
-          <img class="bitmap-copy-41" alt="" src="assets/bitmap-copy@2x.png" />
-          <img class="bitmap-copy-91" alt="" src="assets/bitmap-copy@2x.png" />
-          <div class="bottom-navigation">
-            <img class="bitmap-copy-31" alt="" src="assets/bitmap-copy@2x.png" />
-            <img class="img-icon11" loading="lazy" alt="" src="assets/img@2x.png" />
-          </div>
-        </div>
-      </div><send [color]="'onDark'" [state]="'Default'" [type]="'Post Field'" [onAccordionHeaderClick($event)]="onAccordionHeaderClick($event)" [showSend]="true" [sendHeight]="'76px'" [sendGap]="'unset'" [sendTransitionProperty]="'all'" [sendTransitionTimingFunction]="'cubic-bezier(0.4, 0, 0.2, 1)'" [sendTransitionDuration]="'150ms'" [sendBorder]="'1px solid #fff'" [sendAlignSelf]="'stretch'" [sendWidth]="'unset'" [subtitle]="'О себе'" [title]="'Напишите что-нибудь'" [titleWidth]="'unset'" [titleDisplay]="'unset'" [titleAlignSelf]="'stretch'" [line]="'assets/line.svg'"> </send><post [color]="'onDark'" [type]="'Post'" [showPostOpen]="false" [name1]="'О себе'" [img02]="'assets/img-02@2x.png'" [img01]="'assets/img-01@2x.png'" [showContent]="true" [showSend]="true"> </post><post [color]="'onDark'" [type]="'Post'" [showPostOpen]="true" [postOpenGap]="'unset'" [postOpenHeight]="'389px'" [name1]="'Райан Гослинг'" [img02]="'assets/img-02@2x.png'" [img01]="'assets/img-01@2x.png'" [showContent]="true" [contentAlignSelf]="'stretch'" [contentWidth]="'unset'" [showSend]="true"> </post><send [color]="'onDark'" [state]="'Default'" [type]="'Post Field'" [onAccordionHeaderClick($event)]="onAccordionHeaderClick($event)" [showSend]="false" [sendHeight]="'unset'" [sendGap]="'16px'" [sendTransitionProperty]="'all'" [sendTransitionTimingFunction]="'cubic-bezier(0.4, 0, 0.2, 1)'" [sendTransitionDuration]="'150ms'" [sendBorder]="'1px solid #fff'" [sendAlignSelf]="'stretch'" [sendWidth]="'unset'" [subtitle]="'Райан Гослинг'" [title]="'Напишите что-нибудь'" [titleWidth]="'unset'" [titleDisplay]="'unset'" [titleAlignSelf]="'stretch'" [line]="'assets/line.svg'"> </send><post [color]="'onDark'" [type]="'Post'" [showPostOpen]="true" [postOpenGap]="'unset'" [postOpenHeight]="'161px'" [name1]="'Райан Гослинг'" [img02]="'assets/img-02@2x.png'" [img01]="'assets/img-01@2x.png'" [showContent]="false" [contentAlignSelf]="'unset'" [contentWidth]="'600px'" [showSend]="false"> </post><send [color]="'onDark'" [state]="'Default'" [type]="'Post Field'" [onAccordionHeaderClick($event)]="onAccordionHeaderClick($event)" [showSend]="false" [sendHeight]="'unset'" [sendGap]="'16px'" [sendTransitionProperty]="'all'" [sendTransitionTimingFunction]="'cubic-bezier(0.4, 0, 0.2, 1)'" [sendTransitionDuration]="'150ms'" [sendBorder]="'1px solid #fff'" [sendAlignSelf]="'stretch'" [sendWidth]="'unset'" [subtitle]="'Райан Гослинг'" [title]="'Напишите что-нибудь'" [titleWidth]="'unset'" [titleDisplay]="'unset'" [titleAlignSelf]="'stretch'" [line]="'assets/line.svg'"> </send>
+  <div class="bitmap-copy-2-parent">
+    <img class="bitmap-copy-21" loading="lazy" alt="" src="assets/bitmap-copy@2x.png" />
+    <div class="bottom-icons">
+      <img class="bitmap-icon1" alt="" src="assets/bitmap@2x.png" />
+      <img class="bitmap-copy-51" alt="" src="assets/bitmap-copy@2x.png" />
+      <img class="bitmap-copy-71" loading="lazy" alt="" src="assets/bitmap-copy@2x.png" />
+      <img class="bitmap-copy-81" loading="lazy" alt="" src="assets/bitmap-copy@2x.png" />
+      <img class="bitmap-copy-41" alt="" src="assets/bitmap-copy@2x.png" />
+      <img class="bitmap-copy-91" alt="" src="assets/bitmap-copy@2x.png" />
+      <div class="bottom-navigation">
+        <img class="bitmap-copy-31" alt="" src="assets/bitmap-copy@2x.png" />
+        <img class="img-icon11" loading="lazy" alt="" src="assets/img@2x.png" />
+      </div>
     </div>
+  </div>
+  <send [color]="'onDark'" [state]="'Default'" [type]="'Post Field'"
+    (onAccordionHeaderClick)="onAccordionHeaderClick($event)" [showSend]="true" [sendHeight]="'76px'"
+    [sendGap]="'unset'" [sendTransitionProperty]="'all'" [sendTransitionTimingFunction]="'cubic-bezier(0.4, 0, 0.2, 1)'"
+    [sendTransitionDuration]="'150ms'" [sendBorder]="'1px solid #fff'" [sendAlignSelf]="'stretch'" [sendWidth]="'unset'"
+    [subtitle]="'О себе'" [title]="'Напишите что-нибудь'" [titleWidth]="'unset'" [titleDisplay]="'unset'"
+    [titleAlignSelf]="'stretch'" [line]="'assets/line.svg'"> </send>
+  <post [color]="'onDark'" [type]="'Post'" [showPostOpen]="false" [name1]="'О себе'" [img02]="'assets/img-02@2x.png'"
+    [img01]="'assets/img-01@2x.png'" [showContent]="true" [showSend]="true"> </post>
+  <post [color]="'onDark'" [type]="'Post'" [showPostOpen]="true" [postOpenGap]="'unset'" [postOpenHeight]="'389px'"
+    [name1]="'Райан Гослинг'" [img02]="'assets/img-02@2x.png'" [img01]="'assets/img-01@2x.png'" [showContent]="true"
+    [contentAlignSelf]="'stretch'" [contentWidth]="'unset'" [showSend]="true"> </post>
+  <send [color]="'onDark'" [state]="'Default'" [type]="'Post Field'"
+    (onAccordionHeaderClick)="onAccordionHeaderClick($event)" [showSend]="false" [sendHeight]="'unset'"
+    [sendGap]="'16px'" [sendTransitionProperty]="'all'" [sendTransitionTimingFunction]="'cubic-bezier(0.4, 0, 0.2, 1)'"
+    [sendTransitionDuration]="'150ms'" [sendBorder]="'1px solid #fff'" [sendAlignSelf]="'stretch'" [sendWidth]="'unset'"
+    [subtitle]="'Райан Гослинг'" [title]="'Напишите что-нибудь'" [titleWidth]="'unset'" [titleDisplay]="'unset'"
+    [titleAlignSelf]="'stretch'" [line]="'assets/line.svg'"> </send>
+  <post [color]="'onDark'" [type]="'Post'" [showPostOpen]="true" [postOpenGap]="'unset'" [postOpenHeight]="'161px'"
+    [name1]="'Райан Гослинг'" [img02]="'assets/img-02@2x.png'" [img01]="'assets/img-01@2x.png'" [showContent]="false"
+    [contentAlignSelf]="'unset'" [contentWidth]="'600px'" [showSend]="false"> </post>
+  <send [color]="'onDark'" [state]="'Default'" [type]="'Post Field'"
+    (onAccordionHeaderClick)="onAccordionHeaderClick($event)" [showSend]="false" [sendHeight]="'unset'"
+    [sendGap]="'16px'" [sendTransitionProperty]="'all'" [sendTransitionTimingFunction]="'cubic-bezier(0.4, 0, 0.2, 1)'"
+    [sendTransitionDuration]="'150ms'" [sendBorder]="'1px solid #fff'" [sendAlignSelf]="'stretch'" [sendWidth]="'unset'"
+    [subtitle]="'Райан Гослинг'" [title]="'Напишите что-нибудь'" [titleWidth]="'unset'" [titleDisplay]="'unset'"
+    [titleAlignSelf]="'stretch'" [line]="'assets/line.svg'"> </send>
+</div>

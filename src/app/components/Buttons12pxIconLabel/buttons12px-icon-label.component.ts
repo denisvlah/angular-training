@@ -11,8 +11,8 @@ import { CommonModule } from "@angular/common";
   standalone: true,
   encapsulation: ViewEncapsulation.None,
   imports: [CommonModule],
-  templateUrl: "./Buttons12pxIconLabel.component.html",
-  styleUrls: ["./Buttons12pxIconLabel.component.css"],
+  templateUrl: "./buttons12px-icon-label.component.html",
+  styleUrls: ["./buttons12px-icon-label.component.css"],
 })
 export class Buttons12pxIconLabel {
   @HostBinding("style.display") display = "contents";

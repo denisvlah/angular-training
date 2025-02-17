@@ -5,8 +5,8 @@ import { Component, ViewEncapsulation, HostBinding } from "@angular/core";
   standalone: true,
   encapsulation: ViewEncapsulation.None,
   imports: [],
-  templateUrl: "./Content1.component.html",
-  styleUrls: ["./Content1.component.css"],
+  templateUrl: "./content1.component.html",
+  styleUrls: ["./content1.component.css"],
 })
 export class Content1 {
   @HostBinding("style.display") display = "contents";

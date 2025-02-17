@@ -11,8 +11,8 @@ import { CommonModule } from "@angular/common";
   standalone: true,
   encapsulation: ViewEncapsulation.None,
   imports: [CommonModule],
-  templateUrl: "./ElementTags.component.html",
-  styleUrls: ["./ElementTags.component.css"],
+  templateUrl: "./element-tags.component.html",
+  styleUrls: ["./element-tags.component.css"],
 })
 export class ElementTags {
   @HostBinding("style.display") display = "contents";

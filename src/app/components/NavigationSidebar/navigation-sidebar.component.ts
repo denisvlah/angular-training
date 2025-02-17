@@ -6,14 +6,14 @@ import {
 } from "@angular/core";
 
 import { CommonModule } from "@angular/common";
-import { ElementTags00D066Badge } from "../ElementTags00D066Badge/ElementTags00D066Badge.component";
+import { ElementTags00D066Badge } from "../ElementTags00D066Badge/element-tags00-d066-badge.component";
 @Component({
   selector: "navigation-sidebar",
   standalone: true,
   encapsulation: ViewEncapsulation.None,
   imports: [CommonModule, ElementTags00D066Badge],
-  templateUrl: "./NavigationSidebar.component.html",
-  styleUrls: ["./NavigationSidebar.component.css"],
+  templateUrl: "./navigation-sidebar.component.html",
+  styleUrls: ["./navigation-sidebar.component.css"],
 })
 export class NavigationSidebar {
   @HostBinding("style.display") display = "contents";

@@ -11,8 +11,8 @@ import { CommonModule } from "@angular/common";
   standalone: true,
   encapsulation: ViewEncapsulation.None,
   imports: [CommonModule],
-  templateUrl: "./FormsSecondary.component.html",
-  styleUrls: ["./FormsSecondary.component.css"],
+  templateUrl: "./forms-secondary.component.html",
+  styleUrls: ["./forms-secondary.component.css"],
 })
 export class FormsSecondary {
   @HostBinding("style.display") display = "contents";
@@ -27,7 +27,7 @@ export class FormsSecondary {
   @Input() color: string = "onDark";
   @Input() component: string = "Input";
   @Input() size: string = "14 px";
-  @Input() state: "Default" | "Active" = "Counter";
+  @Input() state: "Default" | "Active" = "Default";
   @Input() type: string = "Primary";
   /** Style props */
   @Input() formsSecondaryAlignSelf: string | number = "";

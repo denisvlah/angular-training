@@ -1,9 +1,9 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
-import { MyProfile } from "./pages/MyProfile/MyProfile.component";
-import { Chats } from "./pages/Chats/Chats.component";
-import { Search } from "./pages/Search/Search.component";
-import { ProfileSettings } from "./pages/ProfileSettings/ProfileSettings.component";
+import { MyProfile } from "./pages/MyProfile/my-profile.component";
+import { Chats } from "./pages/Chats/chats.component";
+import { Search } from "./pages/Search/search.component";
+import { ProfileSettings } from "./pages/ProfileSettings/profile-settings.component";
 const routes: Routes = [
   {
     path: "",
